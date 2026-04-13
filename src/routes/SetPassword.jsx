@@ -39,7 +39,7 @@ function SetPassword() {
     <CenteredPaper>
       <Button component={Link} variant="text" to="/login">Ir a inicio de sesión</Button>
 
-      <Typography variant="h1" sx={{my: "2rem"}}>Sistema de administración de notas del Colegio Santísimo Salvador</Typography>
+      <Typography variant="h1" sx={{my: "2rem"}}>Sistema de administración de notas del Colegio</Typography>
       <Dialog open={failureDialog} onClose={() => navigate("/login")}>
         <Typography>
           El link que ha utilizado es incorrecto o expiro contacte con el
